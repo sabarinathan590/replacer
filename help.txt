@@ -1,0 +1,5 @@
+create jar by following steps
+1. compile the java file(SwingControlDemo.java)
+2. copy .mf file and class file to a location
+3. in cmd window navigate to cpoied location and create jar using the command with out angular braces
+  <jar -cvfm SwingReplacer.jar manifest.mf *.class>
